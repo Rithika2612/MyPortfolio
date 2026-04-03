@@ -297,4 +297,20 @@ h1, h2, h3 { font-weight: 800; line-height: 1.2; }
     .project-card { padding: 1.5rem; }
     .project-visual { min-height: 250px; }
     .contact-card { padding: 2rem; }
+
+    /* Skills Grid Mobile - 3 per row */
+    .skills-logo-grid {
+        gap: 1.5rem 0.5rem;
+    }
+    .skill-logo-item {
+        width: 31%;
+    }
+    .skill-logo-item i {
+        width: 64px;
+        height: 64px;
+        font-size: 2rem;
+    }
+    .skill-logo-item span {
+        font-size: 0.8rem;
+    }
 }
